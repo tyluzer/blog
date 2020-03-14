@@ -8,7 +8,7 @@ import {
   Link
 } from "react-router-dom";
 
-class App extends React.Component{
+class Home extends React.Component{
   constructor(){
     super();
     this.state = {
@@ -49,21 +49,24 @@ class App extends React.Component{
       </div>
 
       <div class='dropdowns'>
-        <div class='dropdown-block-child'>
+        <div class='dropdown-block-child' id='left_links'>
           <div class='not_inline' style={leftStyle}>
             <ul class='blog-links'>
               <li>
                 <a>Movement</a>
               </li>
+              <li>
+                <Link to="/building">Buildings are here</Link>
+              </li>
             </ul>
           </div>
 
         </div>
-        <div class='dropdown-block-child'>
+        <div class='dropdown-block-child' id='right_links'>
           <div class='not_inline'style={rightStyle}>
             <ul class='blog-links'>
               <li>
-                <a>Tomato Water</a>
+                <Link to="/tomatoWater">Tomato Water</Link>
               </li>
               <li>
                 <a>Jesus</a>
@@ -78,4 +81,4 @@ class App extends React.Component{
   }
 }
 
-export default App;
+export default Home;

@@ -1,0 +1,15 @@
+.Title{
+    font: outline;
+    font-size: 50px;
+    /* Boldness */
+    font-weight: 1000; 
+  }
+.post-container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+}
+.post{
+    width: 50%;
+}
