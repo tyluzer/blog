@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+  }
+  
+  .Title{
+    font: outline;
+    font-size: 50px;
+    /* Boldness */
+    font-weight: 1000; 
+  }
+  .navigation{
+    text-align: center;
+  }
+  .inline-block-child {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    height: 50px;
+  }
+  
+  .dropdowns{
+    display: flex;
+    text-align: center;
+  }
+  
+  .dropdown-block-child{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+  
+  }
+  
+  #left{
+   background-color: lightblue;
+  }
+  
+  #right{
+    background-color: #C4FF33;
+   }
+  
+   .blog-links{
+    list-style: none;
+   }

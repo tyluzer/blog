@@ -19,10 +19,26 @@
   height: 50px;
 }
 
+.dropdowns{
+  display: flex;
+  text-align: center;
+}
+
+.dropdown-block-child{
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+
+}
+
 #left{
  background-color: lightblue;
 }
 
 #right{
   background-color: #C4FF33;
+ }
+
+ .blog-links{
+  list-style: none;
  }
